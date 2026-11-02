@@ -1,0 +1,7 @@
+*.exe
+*.zip
+*.key
+*.pem
+*.pub
+.env*
+*.log
