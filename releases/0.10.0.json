@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "product": "TradeMagic MT5 Bridge",
+  "version": "0.10.0",
+  "channel": "public",
+  "repository": "mjaliensys/tm_mt5_bridge",
+  "source_commit": "c92e9099a40a160aed24fb00b61307d42256cc46",
+  "release_url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/tag/v0.10.0",
+  "platform": "windows-x64",
+  "account_environments": [
+    "DEMO",
+    "LIVE"
+  ],
+  "installer": {
+    "name": "TradeMagic-MT5-Bridge-0.10.0-setup.exe",
+    "url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/download/v0.10.0/TradeMagic-MT5-Bridge-0.10.0-setup.exe",
+    "sha256": "53aeeeb1f0f60bde3347649768ad7769908fdb9cab93b6203e8886cf84ba4104",
+    "bytes": 49054573,
+    "signed": false
+  },
+  "third_party_notices": {
+    "name": "TradeMagic-MT5-Bridge-0.10.0-ThirdPartyNotices.zip",
+    "url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/download/v0.10.0/TradeMagic-MT5-Bridge-0.10.0-ThirdPartyNotices.zip",
+    "sha256": "c282a8e3d71743e830b4bdf77d1f1bd75f04287bedad04f0f49d85b0a1dbd3bf"
+  },
+  "tests": {
+    "full_suite_passed": 471,
+    "final_focused_passed": 22,
+    "packaged_agent_smoke": true,
+    "single_ui_smoke": true,
+    "live_money_trades_during_preparation": 0
+  },
+  "update_mode": "Explicit installer with Reuse configuration",
+  "published_at": "2026-11-02T10:49:03Z"
+}
