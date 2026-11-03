@@ -10,13 +10,15 @@ Supports explicitly configured **Demo and Live** MetaTrader 5 accounts. The back
 
 ## Install
 
-Download the Windows x64 installer and `SHA256SUMS.txt` from the same release. Compare the installer SHA-256 before running it. See [setup](docs/SETUP.md) for profile, account environment, connection testing and startup configuration. The initial public installer is **unsigned**.
+Download the Windows x64 installer and `SHA256SUMS.txt` from the same release. Compare the installer SHA-256 before running it. See [setup](docs/SETUP.md) for profile, account environment, connection testing and startup configuration. The installer is **unsigned**.
 
 ## Update
 
 Install the new release using **Reuse existing configuration**. Profiles stop and entries pause during maintenance; journals, identities and credentials are retained. Test the connection and explicitly restart/resume afterward. See [updates and recovery](docs/UPDATES.md).
 
 Fixes are published as new versioned releases. Existing release assets are not silently replaced with different bytes. This repository distributes installers, checksums, release notes and update metadata; development is handled separately. It does not grant public write access: pushes require an authorized owner, collaborator or repository deploy key.
+
+Version 0.11.0 lets verified history windows continue uploading around explicit clock-evidence gaps, and adds local profile removal plus confirmed permanent backend deletion. Permanent backend deletion requires server support; local data is retained if confirmation is unavailable. Ordinary reboot recovery reuses saved validation, while an upgrade requires fresh connection tests. See [update and deletion guidance](docs/UPDATES.md).
 
 ## Release status
 
