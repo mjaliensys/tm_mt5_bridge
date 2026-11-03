@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
   "product": "TradeMagic MT5 Bridge",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "channel": "public",
   "repository": "mjaliensys/tm_mt5_bridge",
-  "source_commit": "c92e9099a40a160aed24fb00b61307d42256cc46",
-  "release_url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/tag/v0.10.0",
+  "source_commit": "38bb050cbded43c4ac9840251d4600b53bc4af62",
+  "release_url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/tag/v0.10.1",
   "platform": "windows-x64",
   "account_environments": [
     "DEMO",
     "LIVE"
   ],
   "installer": {
-    "name": "TradeMagic-MT5-Bridge-0.10.0-setup.exe",
-    "url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/download/v0.10.0/TradeMagic-MT5-Bridge-0.10.0-setup.exe",
-    "sha256": "53aeeeb1f0f60bde3347649768ad7769908fdb9cab93b6203e8886cf84ba4104",
-    "bytes": 49054573,
+    "name": "TradeMagic-MT5-Bridge-0.10.1-setup.exe",
+    "url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/download/v0.10.1/TradeMagic-MT5-Bridge-0.10.1-setup.exe",
+    "sha256": "a599b945ed99255522724029e85b19de41096ac5c5a69883ad2e60f3237b7708",
+    "bytes": 49059425,
     "signed": false
   },
   "third_party_notices": {
-    "name": "TradeMagic-MT5-Bridge-0.10.0-ThirdPartyNotices.zip",
-    "url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/download/v0.10.0/TradeMagic-MT5-Bridge-0.10.0-ThirdPartyNotices.zip",
-    "sha256": "c282a8e3d71743e830b4bdf77d1f1bd75f04287bedad04f0f49d85b0a1dbd3bf"
+    "name": "TradeMagic-MT5-Bridge-0.10.1-ThirdPartyNotices.zip",
+    "url": "https://github.com/mjaliensys/tm_mt5_bridge/releases/download/v0.10.1/TradeMagic-MT5-Bridge-0.10.1-ThirdPartyNotices.zip",
+    "sha256": "c200d0766a15dd8d24f6b4b3d41c44a5b92817c6fe59eb9a05faef35f5a2e924"
   },
   "tests": {
-    "full_suite_passed": 471,
-    "final_focused_passed": 22,
+    "full_suite_passed": 480,
+    "final_focused_passed": 20,
     "packaged_agent_smoke": true,
     "single_ui_smoke": true,
     "live_money_trades_during_preparation": 0
   },
   "update_mode": "Explicit installer with Reuse configuration",
-  "published_at": "2026-11-02T10:49:03Z"
+  "published_at": "2026-11-03T04:59:18Z"
 }
