@@ -18,6 +18,8 @@ Install the new release using **Reuse existing configuration**. Profiles stop an
 
 Fixes are published as new versioned releases. Existing release assets are not silently replaced with different bytes. This repository distributes installers, checksums, release notes and update metadata; development is handled separately. It does not grant public write access: pushes require an authorized owner, collaborator or repository deploy key.
 
+Version 0.12.1 reports journal access failures clearly and adds a targeted administrator repair with retained evidence and restart validation. See [release notes](releases/v0.12.1.md).
+
 Version 0.12.0 improves command polling, exit ownership, history catch-up and post-trade reporting. Unknown clock gaps remain explicit. See [release notes](releases/v0.12.0.md).
 
 Version 0.11.1 corrects fill-volume and protection verification for MT5 floating-point representation noise. It reconciles persisted exact broker tickets without resending orders, and appends audited corrections only for proven representation-only protection failures. Keep entries paused during upgrade and review reconciliation before resuming. See [release notes](releases/v0.11.1.md).
