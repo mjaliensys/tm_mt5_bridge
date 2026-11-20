@@ -18,6 +18,8 @@ Install the new release using **Reuse existing configuration**. Profiles stop an
 
 Fixes are published as new versioned releases. Existing release assets are not silently replaced with different bytes. This repository distributes installers, checksums, release notes and update metadata; development is handled separately. It does not grant public write access: pushes require an authorized owner, collaborator or repository deploy key.
 
+Version 0.12.3 bounds and paginates UI status, preserves full stored evidence, and makes watcher liveness independent of history size. See [release notes](releases/v0.12.3.md).
+
 Version 0.12.2 fixes concurrent agent launches and watcher adoption during reboot while preserving identity checks and crash recovery. See [release notes](releases/v0.12.2.md).
 
 Version 0.12.1 reports journal access failures clearly and adds a targeted administrator repair with retained evidence and restart validation. See [release notes](releases/v0.12.1.md).
